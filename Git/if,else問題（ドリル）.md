@@ -14,7 +14,14 @@ in1to10(5,false)
 in1to10(11,false) 
 in1to10(11,true)
 ```
+- ヒント
+```
+# aもbもtrueの場合にtrue
+a && b 
 
+# aかbのどちらかがtrueの場合にtrue
+a || b 
+```
 ## 解答  
 ```
 def in1to10(num, outside_mode)
@@ -25,14 +32,5 @@ def in1to10(num, outside_mode)
   end
 end
 ```
-
 ## 感想  
-- ヒント
-```
-# aもbもtrueの場合にtrue
-a && b 
-
-# aかbのどちらかがtrueの場合にtrue
-a || b 
-```
 上記のヒントを参考にしながら解くことができた。ヒントの記述はアプリケーションのログインの有無でページにとべないようにするなどの複雑な設定をするときに役に立つと感じた。
