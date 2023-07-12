@@ -18,7 +18,13 @@ num(1,5,5)
 ```
 ## 自分の解答
 ```
-
+def num(a, b, c)
+  a + b = ab
+  if c <= 3
+    ab / c
+  else C >= 4
+    ab * c
+end
 ```
 ## 模範解答  
 ```
