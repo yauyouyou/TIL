@@ -20,7 +20,43 @@ fizz_buzz
 ③条件を指定して繰り返し処理をする場合は、whileというメソッドを使いましょう  
 
 ## 自分の解答  
+```
+def fizz_buzz
+  number = 1
+  while number <= 100 do
+    if number % 3 == 0
+      puts "Fizz"
+    elsif number % 5 == 0
+      puts "Buzz"
+    else number %  15 == 0
+      puts "FizzBuzz"
+    end
+  end
+end
 
+fizz_buzz
+```
 
 ## 模範解答  
+```
+def fizz_buzz
+  num = 1
+  while num <= 100 do
+    if num % 15 == 0
+      puts "FizzBuzz"
+    elsif num % 3 == 0
+      puts "Fizz"
+    elsif num % 5 == 0
+      puts "Buzz"
+    else
+      puts num
+    end
 
+    num = num + 1
+  end
+end
+
+fizz_buzz
+```
+## 感想  
+まず、numberをnumと記述できることと、whileメソッドを使うと繰り返し処理を施すことができることを学ぶことができた。自分の回答ではnum = num + 1に記述がなく、これでは繰り返しても次の数が計算できない。模範解答をすぐ気づけたのはよかった。
