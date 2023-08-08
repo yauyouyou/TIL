@@ -33,4 +33,18 @@ ArrayList<Integer> scores = new ArrayList<Integer>();
 
 ArrayList<Integer> scores = new ArrayList<>();
 ```
+### ③ ArrayListに値を代入する  
+ArrayListに要素を追加するためにはaddメソッドを使用する。  
+例  
+```
+scores.add(1);
+```
+addメソッドを使用すると、要素はArrayListの末尾に追加される。  
+### ④ ArrayListから要素を取り出す  
+要素を取り出す際は、getメソッドを使用する。  
+配列から要素を取り出す際と同様に、「1番目」の要素を取り出したい時は、インデックスとして「0」を指定する。  
+例  
+```
+scores.get(0)
+```
 
