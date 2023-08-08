@@ -15,3 +15,23 @@ class Main {
 ```
 コードを実行すると、scoresという配列の要素として、「1, 5, 10」を代入しており、拡張for分によって取り出して出力できていることが分かる。  
 
+ArrayListからも要素を取り出す場合も使い方は同様である。  
+```
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<Integer> scores = new ArrayList<Integer>();
+
+    scores.add(1);
+    scores.add(5);
+    scores.add(10);
+
+    for(int score : scores) {
+      System.out.println(score);  
+    }
+  }
+}
+```
+出力される結果は同じである。  
+
