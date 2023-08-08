@@ -46,3 +46,10 @@ class Main {
 ```
 出力される結果は同じである。  
 
+先ほど以下のようにコードを記述したが、変数scoresから要素を取り出し、ing型の変数scoreに代入するという動作になっている。  
+```
+for(int score : scores) {
+  System.out.println(score);  
+}
+```
+
