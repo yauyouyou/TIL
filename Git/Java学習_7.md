@@ -26,4 +26,11 @@ ArrayListの宣言と初期化は以下のように行う。
 ```
 ArrayList<データ型> scores = new ArrayList<データ型>();
 ```
+例  
+```
+ArrayList<Integer> scores = new ArrayList<Integer>();
+
+以下のように省略できる
+ArrayList<Integer> scores = new ArrayList<>();
+```
 
