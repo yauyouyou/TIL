@@ -25,6 +25,7 @@ public static int square(int number){
 - Rubyとは違い、変数名「number」だけでなく、受け取る値のデータ型（今回はint）を指定する必要がある    
 - なお、このメソッドの返り値は整数型です。そのため、メソッド名の前に「int」と記述していることに注意
 
+
 メソッドの実行は以下のように記述  
 ```
 var answer = square(5);
