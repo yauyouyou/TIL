@@ -1,5 +1,6 @@
 # JavaとRubyとの違い  
 - Railsでは、「localhost:3000」に対して、Javaでは、「localhost:8080」
+- 使用するツール  
 ```
                       Railsカリキュラム      Javaカリキュラム
 プログラミング言語     Ruby	             Java
