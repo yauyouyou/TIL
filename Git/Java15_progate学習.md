@@ -24,7 +24,7 @@ class Main {
     double weight = 20.0;
     
     // 変数bmiに、BMIを計算して代入してください
-    double BMI = weight / height / height;
+    double bmi = weight / height / height;
     
     // 名前、年齢、身長、体重、BMIに関する情報を出力してください
     System.out.println( "名前は" + name + "です" );
@@ -35,7 +35,7 @@ class Main {
     
     System.out.println( "体重は" + weight + "kgです" );
     
-    System.out.println( "BMIは" + BMI + "です" );
+    System.out.println( "BMIは" + bmi + "です" );
     
   }
 }
