@@ -23,6 +23,7 @@ boolean 変数名 = true(or false);
 比較演算子の結果は真偽値になり、コンソールにも真偽値が出力される  
 ```
 コード　　　　　　　　　　　　コンソール
+
 System.out.println(true);  ...true
 System.out.println(false);  ...false
 System.out.println(6 + 2 == 5);  ...false
